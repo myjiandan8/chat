@@ -1,0 +1,39 @@
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline overline
+}
+A:link {
+	TEXT-DECORATION: none
+}
+DIV {
+	FONT-SIZE: 9pt
+}
+FORM {
+	FONT-SIZE: 9pt
+}
+P {
+	FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+BODY {
+	FONT-SIZE: 9pt; SCROLLBAR-3DLIGHT-COLOR: #f9904b; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #fff0e6; SCROLLBAR-BASE-COLOR: #f9904b; BACKGROUND-COLOR: #ffffff
+}
+.a1 {
+	BACKGROUND-IMAGE: url('title.gif'); COLOR: #ffffff
+}
+.a2 {
+	BACKGROUND-COLOR: #2159CE
+}
+.a3 {
+	BACKGROUND-COLOR: #fff0e6
+}
+.a4 {
+	BACKGROUND-COLOR: #fff7f0
+}

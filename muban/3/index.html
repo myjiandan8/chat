@@ -1,0 +1,183 @@
+<html><head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<LINK href="../../C/images/Style.css" rel=stylesheet>
+<!-- 本模板文件版权归聊湾可视语音聊天网所有！ -->
+<title><!--$title--> - http://<!--$roomid-->.liaowan.com</title>
+<style type="text/css">
+<!--
+.yin1 {	FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=2); FONT-FAMILY: "宋体"; FONT-SIZE: 9pt}
+.yin2 {	BORDER-BOTTOM: #000000 1px solid; BORDER-TOP: #000000 1px solid; FILTER: DropShadow(Color=#ffffcc, OffX=1, OffY=1, Positive=1); FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; }
+.yin3 {	FILTER: DropShadow(Color=#ffffFF, OffX=1, OffY=1, Positive=2); FONT-FAMILY: "宋体"; FONT-SIZE: 10pt}
+TD {FONT-SIZE: 9pt ; COLOR: #444444; LINE-HEIGHT: 11pt}
+-->
+</style>
+<!--$index_css-->
+<SCRIPT language=javascript>
+function OnLogin(n) // 登录聊天室
+{
+	if(!validstr(login.USER))return ;
+	
+	window.open("about:blank", "chat", "toolbar=no,location=no,directories=no,menubar=no,resizable=yes") ;
+	login.target = "chat" ;
+	login.action = "http://liaowan.com/login.asp" ;
+	login.submit() ;	
+	
+}
+function validstr(str) // 验证用户名
+{ var s,i,j; s=" +=|'#&<>%*`^/\\\";,."; str1=str.value.toString();
+  if (str.value.length <1){alert("呢称不能为空！");str.focus(); return false;}
+  for (i=0; i<str1.length; i++)
+  {	for(j=0;j<s.length;j++)
+	{if (str1.charAt(i) == s.charAt(j))
+     {	alert("名字中不能包含特殊字符: +=|'#&<>%*`^/\\\";,.空格.");
+ 		str.focus(); return false;
+  }}}return true;
+}
+function OnLogins() // 登陆管理中心
+
+{
+	if(!validstr(login.USER))return ;
+	if(login.PASS.value.length<1)	
+	{
+		alert("登陆管理中心，密码不能为空") ;
+		login.PASS.focus() ;
+		return false;
+	}
+	login.target = "_blank" ;
+	login.action = "http://liaowan.com/userlogin.asp" ;
+	login.submit() ;		
+}
+</SCRIPT>
+<base target="lwmmneiroom">
+</HEAD>
+<BODY marginheight="0" topmargin="0" bgcolor="#ffffff" bottommargin="0">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+
+
+  <tr>
+   <td style="position:relative">
+<div id="Layer3" align="center" style="position:absolute; left:3px; top:4px; width:179px; height:92px; z-index:1">
+<table border="0" width="100%" id="table8" height="94">
+	<tr>
+		<td align="center">
+<img border="0" src="<!--$index_logo-->"></td>
+	</tr>
+</table>
+</div><img name="index_r1_c1" src="http://muban.liaowan.com/muban/3/index_r1_c1.gif" width="259" height="84" border="0" alt=""></td>
+   <td rowspan="2"><map name="FPMap1">
+	<area coords="37, 52, 73, 73" shape="rect" href="/c/news.asp">
+	<area coords="119, 21, 167, 43" shape="rect" href="/c/club.asp">
+	<area target="_blank" href="/bbs" shape="rect" coords="225, 34, 263, 55">
+	<area href="/c/guest" shape="rect" coords="319, 58, 346, 76">
+	</map>
+	<img name="index_r1_c2" src="http://muban.liaowan.com/muban/3/index_r1_c2.gif" width="441" height="128" border="0" alt="" usemap="#FPMap1"></td>
+   <td><img src="spacer.gif" width="1" height="84" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><map name="FPMap0">
+	<area coords="79, 34, 146, 71" shape="rect" href="/c/main.asp">
+	<area href="/c/xiangce.asp" shape="rect" coords="213, 18, 254, 37">
+	</map>
+	<img name="index_r2_c1" src="http://muban.liaowan.com/muban/3/index_r2_c1.gif" width="259" height="83" border="0" alt="" usemap="#FPMap0"></td>
+   <td><img src="spacer.gif" width="1" height="44" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" background="http://muban.liaowan.com/muban/3/index_r3_c2.gif" valign="top">
+	<table border="0" width="441" id="table2" cellspacing="1" height="66">
+		<tr>
+			<td width="5">　</td>
+			<td width="420" valign="top">
+			<table border="0" width="100%" id="table9" cellspacing="0" cellpadding="0">
+<form name="login" action="/" method="post" target="2">
+								<input type="hidden" value="<!--$roomid-->" name="port">
+								<tr>
+								<td width="100%" align="right">
+								<font color="#639801">〖可以触摸真实的网络从聊湾开始〗</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td width="100%" height="21">　　&nbsp; &nbsp; &nbsp;
+								<b> <!--$roomname--></b><font color="#808080">(在线</font><font color="#808000"><!--$num--></font><font color="#808080">人)</font>&nbsp;<!--$roomid-->.LiaoWan.Com
+								<font color="#439BAF">流量</font><font color="#FF0000"><!--$TOTAL--></font> 
+								<font color="#439BAF">点击</font><font color="#FF0000"><!--$renqi--></font></td>
+							</tr>
+
+							<tr>
+								<td width="100%"> &nbsp;&nbsp;&nbsp;&nbsp; 呢称:<input maxLength="15" size="10" name="USER" class=put> 密码:<input type="password" maxLength="10" size="10" value name="PASS" class=put><font color="#999999"> *可不填</font>
+								<input type="button" value="开门" name="B1" class="put1" onClick="document.location = 'javascript:OnLogin(0);'" title="进入聊天室！"><input type="button" value="管理" name="B4" class="put1" onclick="OnLogins();" title="登陆用户管理中心！">
+								</td>
+							</tr>
+
+</form>
+			</table>
+			</td>
+			<td width="0">　　</td>
+		</tr>
+		</table>
+	</td>
+   <td><img src="spacer.gif" width="1" height="39" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><img name="index_r4_c1" src="http://muban.liaowan.com/muban/3/index_r4_c1.gif" width="259" height="111" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="28" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" valign="top">
+	<table border="0" width="100%" id="table1" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+                <IFRAME name=lwmmneiroom src="<!--$indexs-->" frameBorder=0 width=430 height=376></IFRAME>
+								</td>
+		</tr>
+		<tr>
+			<td align="right" valign="bottom">Copyright (c)&nbsp;
+		<a target="_blank" href="http://liaowan.com/">聊湾可视语音聊天网</a> 1999 - 
+          2004&nbsp; &nbsp; </td>
+		</tr>
+	</table>
+	</td>
+   <td><img src="spacer.gif" width="1" height="83" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td background="http://muban.liaowan.com/muban/3/index_r6_c1.gif" valign="top">
+	<table border="0" width="259" id="table10" height="310" cellspacing="4" cellpadding="4">
+		<tr>
+			<td width="187">　</td>
+			<td width="17"><font color="#639801">〓<br>
+			</font> 
+					<a style="text-decoration: none" href="javascript:window.external.AddFavorite('http://<!--$roomid-->.liaowan.com',%20'<!--$roomname-->%20-%20视频聊天%20语音聊天%20聊湾')">
+					<font color="#639801">收<br>
+			藏<br>
+			本<br>
+			房</font></a><font color="#639801"><br>
+			〓<br>
+			<br>
+			〓</font><A onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://<!--$roomid-->.liaowan.com');" 
+                        href="javascript:;" style="text-decoration: none"><font color="#639801">设为首页</font></A><font color="#639801">〓</font></td>
+			<td width="15"><font color="#639801">〓<br>
+			</font>
+              		<a target="_blank" href="http://liaowan.com/vip/regadd.asp">
+					<font color="#639801">用户注册</font></a><br>
+			<font color="#639801">〓<br>
+			<br>
+			〓<br>
+			</font>
+              		<a target="_blank" href="http://liaowan.com/vip/usermima.asp">
+					<font color="#639801">密码找回</font></a><font color="#639801"><br>
+			〓<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+　</font></td>
+		</tr>
+	</table>
+	</td>
+   <td><img src="spacer.gif" width="1" height="322" border="0" alt=""></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

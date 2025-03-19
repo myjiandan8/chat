@@ -1,0 +1,50 @@
+A:visited{TEXT-DECORATION:none;COLOR:000000}
+A:link{text-decoration:none;COLOR:000000}
+A:hover{TEXT-DECORATION:underline overline}
+
+DIV,FORM,P,TD,BODY{FONT-SIZE:9pt;}
+BODY{
+background-image: url(bg.gif);background-position:center;
+SCROLLBAR-HIGHLIGHT-COLOR:DFFB60;
+SCROLLBAR-SHADOW-COLOR:000000;
+SCROLLBAR-3DLIGHT-COLOR:F0FDB7;
+SCROLLBAR-TRACK-COLOR:EFEFEF;
+scrollbar-Base-Color: BEE606;
+SCROLLBAR-DARKSHADOW-COLOR:BEE606
+}
+#TableTitleLink A:link,#TableTitleLink A:visited{COLOR:408080;}
+.a1{BACKGROUND-IMAGE:url('titlebg.gif'); F3FCE0;}
+.a2{BACKGROUND-COLOR: 9ED917;}
+.a3{BACKGROUND-COLOR: EBFAC9;}
+.a4{BACKGROUND-COLOR: F3FCE0;}
+.a5{BACKGROUND-COLOR: F3FCE0;}
+.menuskin {
+	BORDER-RIGHT: #0A2999 1px solid ;
+	BORDER-TOP: #0A2999 1px solid;
+	BORDER-LEFT: #0A2999 1px solid;
+	BORDER-BOTTOM: #0A2999 1px solid;
+	BACKGROUND-IMAGE: url(menubg.gif);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #0B008B 1px solid;
+	BORDER-TOP: #0B008B 1px solid;
+	BORDER-LEFT: #0B008B 1px solid;
+	BORDER-BOTTOM: #0B008B 1px solid;
+	BACKGROUND-COLOR: #FFEEC2 
+}
+.menuskin A {PADDING-RIGHT: 10px;PADDING-LEFT: 30px;}

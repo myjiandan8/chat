@@ -1,0 +1,17 @@
+A:visited{TEXT-DECORATION: none; color=#0000ff ;}
+A:active{TEXT-DECORATION: none; color=#0000ff;}
+A:hover{TEXT-DECORATION: underline overline; color=#ff0000 ;}
+A:link{text-decoration: none; color=#0000ff ;}
+DIV{FONT-SIZE:9pt}
+FORM{FONT-SIZE:9pt}
+P{FONT-SIZE:9pt}
+TD{FONT-SIZE:9pt; color=#000000 }
+BODY{
+FONT-SIZE:9pt;
+cursor: url(mouse.cur);
+
+}
+.a1{BACKGROUND-IMAGE:url('img/bg.gif');color: ffffff}
+.a2{BACKGROUND-COLOR: C6C3FF;}
+.a3{BACKGROUND-COLOR: F7F7FF;}
+.a4{BACKGROUND-COLOR: F7F7F7;}

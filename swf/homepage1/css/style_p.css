@@ -1,0 +1,47 @@
+body {  background: #0F3085}						/*首页背景色*/
+td { font-size: 12px; color: #333333}					/*页面字体基本样式*/
+a{ text-decoration: none; color: #333333}				/*标准链接样式*/
+a:hover { text-decoration: underline}					/*标准链接样式*/
+.eng { font-size: 12px; font-family: "Verdana", "Arial"}		/*英文字体样式*/
+.large { font-size: 14.8px}						/*大字体样式*/
+.white { color: #FFFFFF}						/*颜色样式之白色*/
+.line_h18 { line-height: 18px}						/*文本行距样式1*/
+.line_h20 { line-height: 20px}						/*文本行距样式2*/
+.line_h22 { line-height: 22px}						/*文本行距样式3*/
+.line_h24 { line-height: 24px}						/*文本行距样式4*/
+.headline1 { background: #FFC000}
+.headline1 a{ color: #060606}
+.headline1a { background: #CA7200}					/*头条配色样式1*/
+.headline2 { background: #2985D3}
+.headline2 a{ color: #FFFFFF}
+.headline2a { background: #065293}					/*头条配色样式2*/
+.headline3 { background: #595959}
+.headline3 a{ color: #FFFFFF}
+.headline3a { background: #3A3A3A}					/*头条配色样式3*/
+.headline4 { background: #CB0000}
+.headline4 a{ color: #FFF952}
+.headline4a { background: #970101}					/*头条配色样式4*/
+.eng0 { font-size: 10px; font-family: "Verdana", "Arial" }
+.eng1 { font-size: 12px; font-family: "Arial"; color: #DFE8FF}
+.eng2 {  font: 11px "Arial"; color: #FFFFFF}
+.button { font-size: 12px;height:21px; color: #333333; background: #CCCCCC; padding-top: 3px; border: 1px solid; border-color: #FFFFFF #A2A2A2 #A2A2A2 #FFFFFF;}
+.button1 { font-size: 12px;height:21px; color: #964700; background: #FF9600; padding-top: 3px; border: 1px solid; border-color: #FFD16E #AF6700 #AF6700 #FFD16E;}
+.button2 { font-size: 12px;height:21px; color: #FFEFEF; background: #EE3E3E; padding-top: 2px; border: 1px solid; border-color: #FC7070 #AE0C0C #AE0C0C #FC7070;}
+.color_red { color: #FF0000}
+.color0 { color: #6F6F6F}
+.color1 { color: #80BbEB}
+.color2 { color: #00488C}
+.color3 { color: #FFC4C4}
+.color4 { color: #964700}
+.color5 { color: #AE0C0C}
+.box { border: 1px #000000 solid}
+.box1 { border: #CCCCCC solid; border-width: 0px 1px 1px 0px; padding-bottom: 1px}
+.box2 { border: 1px solid; border-color: #A2A2A2 #FFFFFF #FFFFFF #A2A2A2; color: #333333; text-align: center; padding-top: 2px}
+.box3 { border: 1px #FF9600 solid; background: #FFCC50}
+.box4 { border: 0px; background: #FFCC50 ; color: #964700}
+.box5 { border: 1px #FC7070 solid; background: #EE3E3E}
+.box6 { border: 0px; background: #EE3E3E ; color: #FFFFFF}
+.box7 { border: 1px #B7B7B7 solid; background: #EEEEEE}
+.box8 { border: 1px solid; background: #2AB6F8; border-color: #58D0FF #0083BF #0083BF #58D0FF; text-align: center; width: 32px}
+.box9 { border: 1px solid; background: #07B2EC; border-color: #58D0FF #0083BF #0083BF #58D0FF}
+.box10 { border: 1px solid; border-color: #FFFFFF #BFBFBF #BFBFBF #FFFFFF; color: #7B7B7B; text-align: center; padding-top: 2px ; background: #EAEAEA; height: 20px}.large {  }

@@ -1,0 +1,53 @@
+A:visited{TEXT-DECORATION:none;COLOR:000000}
+A:link{text-decoration:none;COLOR:000000}
+A:hover{TEXT-DECORATION:underline;COLOR:A4B6D7}
+
+DIV,FORM,P,TD,BODY{FONT-SIZE:9pt;}
+BODY{
+scrollbar-face-color: #DDDDDD;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: darkseagreen;
+scrollbar-3dlight-color: #DDDDDD;
+scrollbar-arrow-color: darkseagreen;
+scrollbar-track-color: #EBEBEB;
+scrollbar-darkshadow-color: #EBEBEB;
+}
+
+
+#TableTitleLink A:link,#TableTitleLink A:visited{COLOR:2677B3;}
+.a1{BACKGROUND-IMAGE:url('titlebg.gif');COLOR:2677B3;}
+.a2{BACKGROUND-COLOR: A4B6D7;}
+.a3{BACKGROUND-COLOR: F8F8F8;}
+.a4{BACKGROUND-COLOR: f0f0f0;}
+
+.menuskin {
+	BORDER-RIGHT: #0A2999 1px solid ;
+	BORDER-TOP: #0A2999 1px solid;
+	BORDER-LEFT: #0A2999 1px solid;
+	BORDER-BOTTOM: #0A2999 1px solid;
+	BACKGROUND-IMAGE: url(menubg.gif);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+#mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #0B008B 1px solid;
+	BORDER-TOP: #0B008B 1px solid;
+	BORDER-LEFT: #0B008B 1px solid;
+	BORDER-BOTTOM: #0B008B 1px solid;
+	BACKGROUND-COLOR: #FFEEC2 
+}
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:30px;}

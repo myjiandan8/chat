@@ -1,0 +1,38 @@
+<!--Flash_Intro--> 
+<SCRIPT LANGUAGE=JavaScript1.1>
+<!--
+var MM_contentVersion = 6;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if ( plugin ) {
+		var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+	    for (var i = 0; i < words.length; ++i)
+	    {
+		if (isNaN(parseInt(words[i])))
+		continue;
+		var MM_PluginVersion = words[i]; 
+	    }
+	var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+   && (navigator.appVersion.indexOf("Win") != -1)) {
+	document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n'); //FS hide this from IE4.5 Mac by splitting the tag
+	document.write('on error resume next \n');
+	document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+	document.write('</SCR' + 'IPT\> \n');
+}
+if ( MM_FlashCanPlay ) {
+	document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+	document.write('  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" ');
+	document.write(' ID="flashIntro" WIDTH="778" HEIGHT="107"  ALIGN="">');
+	document.write(' <PARAM NAME=movie VALUE="/swf/intro.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=menu VALUE=false> <PARAM NAME=quality VALUE=high> <PARAM NAME=scale VALUE=noscale> <PARAM NAME=salign VALUE=LT> <PARAM NAME=bgcolor VALUE=#FFFFFF>  '); 
+	document.write('<EMBED src="/swf/intro.swf" menu=false quality=high scale=noscale salign=LT  bgcolor=#FFFFFF  WIDTH="778" HEIGHT="107" NAME="flashIntro" ALIGN=""  swliveconnect=true TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"> ');
+	document.write(' </EMBED>');
+	document.write(' </OBJECT>');
+} else{		
+	document.write('<img src="/swf/intro.gif" usemap="#update_flash" border="0" width="778" height="107">');	
+	document.write('<map name="update_flash" id="update_flash"><area shape="rect" coords="710,88,740,106" href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&Lang=S_Chinese&P5_Language=S_Chinese" target="_blank"></map>');
+}
+//-->
+</SCRIPT><NOSCRIPT>
+<img src="/homepage/swf/intro.gif" usemap="#update_flash" border="0" width="778" height="107"><map name="update_flash" id="update_flash"><area shape="rect" coords="706,91,744,105" href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&Lang=S_Chinese&P5_Language=S_Chinese" target="_blank"></map>
+</NOSCRIPT><!--Flash_Intro-->

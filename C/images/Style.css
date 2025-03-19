@@ -1,0 +1,40 @@
+a:link    { text-decoration:none; color:#333333;}
+a:visited { text-decoration:none; color:#333333;}
+a:hover   { text-decoration:none; color:#0099FF;}
+a:active  { text-decoration:none; color:#FF9900;}
+A.a01:link {text-decoration:none; color:#000000;}
+A.a01:visited {text-decoration:none; color:#000000;}
+A.a01:hover {text-decoration:underline; color:#ff0099;}
+A.a01:active {text-decoration:none; color:#ff9900;}
+A.a03:link {text-decoration:underline; color:#ff0099;}
+A.a03:visited {text-decoration:underline; color:#ff0099;}
+A.a03:hover {text-decoration:none; color:#0099ff;}
+A.a03:active {text-decoration:none; color:#ff9900;}
+A.a04:link {text-decoration:underline; color:#ff0000;}
+A.a04:visited {text-decoration:underline; color:#ff0000;}
+A.a04:hover {text-decoration:none; color:#0099ff;}
+A.a04:active {text-decoration:none; color:#ff9900;}
+A.a06:link {text-decoration:underline; color:#333333;}
+A.a06:visited {text-decoration:underline; color:#333333;}
+A.a06:hover {text-decoration:none; color:#0099ff;}
+A.a06:active {text-decoration:none; color:#ff9900;}
+table, body {  font-family: "宋体"; font-size: 9pt;}
+TD {FONT-SIZE: 9pt ; COLOR: #444444; LINE-HEIGHT: 14pt}
+.bh {FONT-SIZE: 9pt ; LINE-HEIGHT: 16pt}
+.put { border-top: #555555 1px solid ; border-left: #555555 1px solid ; border-bottom: #555555 1px solid ; border-right: #555555 1px solid ; background:#ffffff ; color: #555555 ; font-size: 12px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px;PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: "宋体";}
+.put1 { border-bottom: #999999 1px solid ; border-right: #999999 1px solid ; border-top: #efefef 1px solid ; border-left: #FFD9EC 1px solid ; background:#eeeeee ; color: #555555 ; font-size: 12px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px;PADDING-BOTTOM: 1px; PADDING-TOP: 1px; HEIGHT: 18px;}
+.a02 {font-family: "宋体"; font-size: 9pt;letter-spacing: 3px;}
+.fontshadow { font-family: "宋体"; font-size: 9pt;letter-spacing: 3px; filter: glow(color=ffffff, strength=2); WIDTH: 100% }
+.sha1 {  WIDTH: 100%} 
+.normal { font-family: "宋体"; font-size: 9pt; line-height: 14pt; letter-spacing: 1px}
+.text { font-family: "宋体"; font-size: 14.7px; COLOR: #000000; line-height: 15pt;}
+.titletext { FONT-SIZE: 14px; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px;}
+.spacer { font-family: "宋体"; font-size: 9pt;line-height: 20pt;}
+.b1 {FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "tahoma"}
+.menuover { CURSOR: hand;  BACKGROUND-COLOR: #FFFFFF}
+.menuout { CURSOR: hand}
+.box1 { border-bottom: #FF99CC 1px solid ; border-right: #FF99CC 1px solid ; border-left: #FF99CC 1px solid ;}
+.ccopen {BACKGROUND-COLOR: #FF99CC; color: #FFFFFF ; font-family: "宋体"; font-size: 9pt;letter-spacing: 3px;}
+.ccclose{background-image:url('../../../images/gripback.gif') ; color: #FF0099 ; font-family: "宋体"; font-size: 9pt;letter-spacing: 3px}
+
+

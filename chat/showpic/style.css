@@ -1,0 +1,27 @@
+A:link {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3333; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: "Arial", "宋体"
+}
+FORM {
+	MARGIN: 0px
+}
+.c1 {
+	FONT-SIZE: 10.5pt; LINE-HEIGHT: 150%
+}
+.text {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #6b6b6b 1px solid; FONT-SIZE: 12px; FILTER: DropShadow(Color=ECEDEF, OffX=1, OffY=1, Positive=1); BORDER-LEFT: #6b6b6b 1px solid; LINE-HEIGHT: 12px; BORDER-BOTTOM: #cccccc 1px solid
+}

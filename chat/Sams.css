@@ -1,0 +1,44 @@
+body {FONT-SIZE: 9pt;
+      scrollbar-3d-light-color:#ffffff;
+      scrollbar-arrow-color:#ffffff;
+      scrollbar-base-color:#cccccc;
+      scrollbar-darkshadow-color:#ffffff;
+      scrollbar-face-color:#eeeeee;
+      scrollbar-highlight-color:#ffffff;
+      scrollbar-shadow-color:#999999;
+      scrollbar-track-color:#eeeeee;}
+td {
+	font-size: 12px;
+	color: #555555;
+}
+.line {line-height: 20px;}
+.top_line {line-height: 16px;}
+A:link
+{    text-decoration: none;
+    color: #555555;
+    font-size:9pt
+ 
+}
+A:visited
+{    text-decoration: none;
+    color: #555555;
+    font-size:9pt
+}
+A:hover
+{    text-decoration: none;
+    COLOR:#93da14;
+    font-size:9pt;
+	position: relative; left: 1px; top: 1px; clip:  rect(   )
+}
+body {	font-size: 12px;}
+
+SELECT {	FONT-SIZE: 12px; FILTER: Alpha(Opacity=50); COLOR: #666666; FONT-FAMILY: "song", "MS Shell Dlg", "宋体"; BACKGROUND-COLOR: #f5f5f5}
+textarea {	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; BORDER-LEFT: #eeeeee 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #eeeeee 1px solid; FONT-FAMILY: "Verdana", "Arial", "宋体"; BACKGROUND-COLOR: #ffffff}
+.input1 {BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; BORDER-LEFT: #eeeeee 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #eeeeee 1px solid; FONT-FAMILY: "Verdana", "Arial", "宋体"; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff}
+.inputs {BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; BORDER-LEFT: #eeeeee 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #eeeeee 1px solid; FONT-FAMILY: "Verdana", "Arial", "宋体"; HEIGHT: 18px; BACKGROUND-COLOR: #CCFF99}
+.input {BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "Verdana", "Arial", "宋体"; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff}
+.font14 {font-size: 15px;line-height: 20px;}
+.newshead {  font-family: "song", "MS Shell Dlg", "宋体"; font-size: 12px; font-weight: bold; color: #FF9900}
+.TableBody1{background-color: #ededed;}
+.tableBorder1{width:750px; background-color: #89959b;}
+.img{border:#cccccc 1px solid;filter:progid:DXImageTransform.Microsoft.Shadow(color='#666666',Direction=135,Strength=4);}

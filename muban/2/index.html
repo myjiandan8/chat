@@ -1,0 +1,296 @@
+<html><head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<LINK href="http://muban.liaowan.com/C/images/Style.css" rel=stylesheet>
+<title><!--$title--> - http://<!--$roomid-->.liaowan.com</title>
+<!-- 本模板文件版权归聊湾可视语音聊天网所有！ -->
+<style type="text/css">
+<!--
+.yin1 {	FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=2); FONT-FAMILY: "宋体"; FONT-SIZE: 9pt}
+.yin2 {	BORDER-BOTTOM: #000000 1px solid; BORDER-TOP: #000000 1px solid; FILTER: DropShadow(Color=#ffffcc, OffX=1, OffY=1, Positive=1); FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; }
+.yin3 {	FILTER: DropShadow(Color=#ffffFF, OffX=1, OffY=1, Positive=2); FONT-FAMILY: "宋体"; FONT-SIZE: 10pt}
+-->
+</style>
+<!--$index_css-->
+<SCRIPT language=javascript>
+function OnLogin(n) // 登录聊天室
+{
+	if(!validstr(login.USER))return ;
+	
+	window.open("about:blank", "chat", "toolbar=no,location=no,directories=no,menubar=no,resizable=yes") ;
+	login.target = "chat" ;
+	login.action = "http://liaowan.com/login.asp" ;
+	login.submit() ;	
+	
+}
+function validstr(str) // 验证用户名
+{ var s,i,j; s=" +=|'#&<>%*`^/\\\";,."; str1=str.value.toString();
+  if (str.value.length <1){alert("呢称不能为空！");str.focus(); return false;}
+  for (i=0; i<str1.length; i++)
+  {	for(j=0;j<s.length;j++)
+	{if (str1.charAt(i) == s.charAt(j))
+     {	alert("名字中不能包含特殊字符: +=|'#&<>%*`^/\\\";,.空格.");
+ 		str.focus(); return false;
+  }}}return true;
+}
+function OnLogins() // 登陆管理中心
+
+{
+	if(!validstr(login.USER))return ;
+	if(login.PASS.value.length<1)	
+	{
+		alert("登陆管理中心，密码不能为空") ;
+		login.PASS.focus() ;
+		return false;
+	}
+	login.target = "_blank" ;
+	login.action = "http://liaowan.com/userlogin.asp" ;
+	login.submit() ;		
+}
+</SCRIPT>
+<base target="lwmmneiroom">
+</HEAD>
+<BODY marginheight="0" topmargin="0" bgcolor="#000000">
+
+<!-- 本模板文件版权归聊湾可视语音聊天网所有！ --><div align="center">
+	<table border="0" width="650" id="table1" cellspacing="0" cellpadding="0" height="582">
+		<tr>
+			<td width="100%" colspan="3" height="88" align="center" style="position:relative">
+<div id="Layer2" align="center" style="position:absolute; left:6px; top:4px; width:168px; height:101px; z-index:1">
+
+				<table border="0" width="100%" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" height="60">
+					<tr>
+						<td width="29" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a2.gif" width="11" height="11"></td>
+						<td width="244">　</td>
+						<td width="195" align="right" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a3.gif" width="11" height="11"></td>
+					</tr>
+					<tr>
+						<td width="314" colspan="3" height="60" align="center" valign="top">
+						　</td>
+					</tr>
+					<tr>
+						<td width="29" valign="bottom" height="19">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a1.gif" width="11" height="11"></td>
+						<td width="244" height="19">　</td>
+						<td width="195" align="right" valign="bottom" height="19">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a4.gif" width="11" height="11"></td>
+					</tr>
+				</table>
+</div>
+<div id="Layer3" align="center" style="position:absolute; left:4px; top:7px; width:167px; height:92px; z-index:1">
+<table border="0" width="100%" id="table8" height="94">
+	<tr>
+		<td align="center">
+<img border="0" src="<!--$index_logo-->"></td>
+	</tr>
+</table>
+</div>
+<table border="0" width="100%" id="table6" cellspacing="0" cellpadding="3">
+	<tr>
+		<td width="176">　</td>
+		<td>
+		
+		<div>
+				<table border="0" width="468" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" height="60" background="http://muban.liaowan.com/muban/2/images/BG2.gif">
+					<tr>
+						<td width="29" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a2.gif" width="11" height="11"></td>
+						<td width="413">　</td>
+						<td width="11" align="right" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a3.gif" width="11" height="11"></td>
+					</tr>
+					<tr>
+						<td width="314" colspan="3" height="19" align="center" valign="top">
+						　</td>
+					</tr>
+					<tr>
+						<td width="29" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a1.gif" width="11" height="11"></td>
+						<td width="413">　</td>
+						<td width="11" align="right" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a4.gif" width="11" height="11"></td>
+					</tr>
+				</table>
+			</div>
+			
+		
+		</td>
+	</tr>
+</table>
+
+			<div align="right">
+				<table border="0" width="457" id="table7" height="26">
+					<tr>
+						<td>
+						<a href="/c/main.asp">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B1.gif" width="70" height="22"></a>
+						<a href="/c/news.asp">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B2.gif" width="70" height="22"></a>
+						<a href="/c/xiangce.asp">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B3.gif" width="70" height="22"></a>
+						<a href="/C/club.asp">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B4.gif" width="70" height="22"></a>
+						<a target="_blank" href="/bbs">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B5.gif" width="70" height="22"></a>
+						<a href="/c/guest/">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/B6.gif" width="70" height="22"></a>
+						</td>
+					</tr>
+				</table>
+</div>
+
+			</td>
+		</tr>
+		<tr>
+			<td height="486" width="198" rowspan="2" valign="bottom" style="position:relative">
+<div id="Layer2" align="center" style="position:absolute; left:14px; top:10px; width:138px; height:45px; z-index:1">
+<img border="0" src="http://muban.liaowan.com/muban/2/images/denglu.gif" width="123" height="42">
+</div>
+
+			<div align="center">
+				<table border="0" width="180" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" background="http://muban.liaowan.com/muban/2/images/BG1.gif">
+					<tr>
+						<td width="29" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a2.gif" width="11" height="11"></td>
+						<td width="138">　</td>
+						<td width="31" align="right" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a3.gif" width="11" height="11"></td>
+					</tr>
+					<tr>
+						<td width="198" colspan="3" height="174" align="center" valign="top">
+						<table border="0" width="180" id="table3" cellspacing="0" cellpadding="0" height="170">
+<form name="login" action="/" method="post" target="2">
+							<tr>
+								<td width="180" colspan="2" height="6"></td>
+							</tr>
+							<tr>
+								<td width="50" align="right">呢 称:</td>
+								<td width="130">
+                  <input maxLength="15" size="10" name="USER" class=put>
+					<font color="#808080">(</font><font color="#808000"><!--$num--></font><font color="#808080">人)</font></td>
+							</tr>
+							<tr>
+								<td width="50" align="right">密 码:</td>
+								<td width="130">
+                  <input type="password" maxLength="10" size="10" value name="PASS" class=put><font color="#999999"> 
+                  *可不填</font><input type="hidden" value="<!--$roomid-->" name="port"></td>
+							</tr>
+							<tr>
+								<td width="180" colspan="2" align="center" height="35">
+                  <input type="button" value="开门" name="B1" class="put1" onClick="document.location = 'javascript:OnLogin(0);'" title="进入聊天室！"><input type="button" value="管理" name="B4" class="put1" onclick="OnLogins();" title="登陆用户管理中心！">
+                  <input type="button" value="注册" name="B2" class="put1" onClick="window.open('http://liaowan.com/vip/regadd.asp', 'mychat')"><input type="button" value="密码" name="B3" class="put1" onClick="window.open('http://liaowan.com/vip/usermima.asp', 'mychat')"></td>
+							</tr>
+							<tr>
+								<td width="180" colspan="2" height="19">&nbsp;<img border="0" src="http://muban.liaowan.com/muban/2/images/qiu1.gif" width="14" height="13"> 
+                  房间名: <!--$roomname--></td>
+							</tr>
+							<tr>
+								<td width="180" colspan="2">&nbsp;<img border="0" src="http://muban.liaowan.com/muban/2/images/qiu1.gif" width="14" height="13"> 
+                  室&nbsp; 主: <a target="_blank" href="http://<!--$admin-->.lwoo.cn"><!--$admin--></a></td>
+							</tr>
+							<tr>
+								<td width="180" colspan="2">&nbsp;<img border="0" src="http://muban.liaowan.com/muban/2/images/qiu1.gif" width="14" height="13"> 
+                  <a target="lwmmneiroom" href="/C/guest/add.asp"> <font color="#ff0000">
+					我要留言</font></a>　<a href="/C/guest/nj.asp">我要申请主持人</a></td>
+							</tr>
+							<tr>
+								<td width="180" colspan="2">&nbsp;<img border="0" src="http://muban.liaowan.com/muban/2/images/qiu1.gif" width="14" height="13"> 
+                  本视频语音聊天室备案资料</td>
+							</tr>
+</form>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="29" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a1.gif" width="11" height="11"></td>
+						<td width="138">　</td>
+						<td width="31" align="right" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a4.gif" width="11" height="11"></td>
+					</tr>
+				</table>
+			</div>
+			<img border="0" src="http://muban.liaowan.com/muban/2/images/C1.gif" width="198" height="245"></td>
+			<td height="429" width="477" valign="top" align="center" colspan="2">
+			
+					<div align="center">
+				<table border="0" width="98%" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+					<tr>
+						<td width="17" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a2.gif" width="11" height="11"></td>
+						<td width="431">　</td>
+						<td width="11" align="right" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a3.gif" width="11" height="11"></td>
+					</tr>
+					<tr>
+						<td width="100%" colspan="3" height="100%" align="center" valign="top">
+						<table border="0" width="100%" id="table4">
+							<tr>
+								<td>
+                <IFRAME name=lwmmneiroom src="<!--$indexs-->" frameBorder=0 width=438 height=375></IFRAME>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td width="17" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a1.gif" width="11" height="11"></td>
+						<td width="431">　</td>
+						<td width="11" align="right" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a4.gif" width="11" height="11"></td>
+					</tr>
+				</table>
+			</div>			
+			</td>
+		</tr>
+		<tr>
+			<td height="57" width="68" valign="bottom">
+			<img border="0" src="http://muban.liaowan.com/muban/2/images/c2.gif" width="65" height="43"></td>
+			<td height="57" width="388" valign="bottom" style="position:relative">
+<div id="Layer2" align="center" style="position:absolute; left:9px; top:6px; width:368px; height:45px; z-index:1">
+<table border="0" width="100%" id="table5" cellspacing="1">
+	<tr>
+		<td><b>流量统计</b>：今天<font color="#FF0000"><!--$TODAY--></font>昨天<font color="#FF0000"><!--$YESTERDAY--></font>本月<font color="#FF0000"><!--$MONTHS--></font> 
+							上月<font color="#FF0000"><!--$BMONTH--></font>一共<font color="#FF0000"><!--$TOTAL--></font>点击<font color="#FF0000"><!--$renqi--></font></td>
+	</tr>
+	<tr>
+		<td align="right">
+		<img border="0" src="http://muban.liaowan.com/muban/2/images/22.gif" width="29" height="9"> Copyright (c)&nbsp;
+		<a target="_blank" href="http://liaowan.com/">聊湾可视语音聊天网</a> 1999 - 
+          2004</td>
+	</tr>
+</table>
+</div>
+			<div align="center">
+				<table border="0" width="385" id="table2" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+					<tr>
+						<td width="29" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a2.gif" width="11" height="11"></td>
+						<td width="344">　</td>
+						<td width="13" align="right" valign="top">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a3.gif" width="11" height="11"></td>
+					</tr>
+					<tr>
+						<td width="385" colspan="3" height="19">
+						&nbsp;
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/21.gif" width="18" height="18"></td>
+					</tr>
+					<tr>
+						<td width="29" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a1.gif" width="11" height="11"></td>
+						<td width="344">　</td>
+						<td width="13" align="right" valign="bottom">
+						<img border="0" src="http://muban.liaowan.com/muban/2/images/a4.gif" width="11" height="11"></td>
+					</tr>
+				</table>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="646" colspan="3" height="1"></td>
+		</tr>
+	</table>
+</div>
+</body></html>

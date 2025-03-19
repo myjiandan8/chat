@@ -1,0 +1,1 @@
+<%response.redirect "/info/faq.asp"%>

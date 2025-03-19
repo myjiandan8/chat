@@ -1,0 +1,41 @@
+<script language=javascript>
+//广告代码由龙软 VCU 聊湾 设计，转载前请记得代码编写人：乐天
+function get_cookie(Name) {
+  var search = Name + "="
+  var returnvalue = "";
+  if (document.cookie.length > 0) {
+    offset = document.cookie.indexOf(search)
+    if (offset != -1) { // if cookie exists
+      offset += search.length
+      // set index of beginning of value
+      end = document.cookie.indexOf(";", offset);
+      // set index of end of cookie value
+      if (end == -1)
+         end = document.cookie.length;
+      returnvalue=unescape(document.cookie.substring(offset, end))
+      }
+   }
+  return returnvalue;
+}
+
+function loadpopup() {
+	//document.cookie = "popped=";
+	if (get_cookie('popped')==''){ 
+			window.open('http://bbs.51vip.net/mm.asp?get=200649','114','resizable,menubar,scrollbars,dependent,location,toolbar,width=0,height=0');
+			document.cookie="popped=yes"
+			var today = new Date();
+			var expireDay = new Date();
+			var msPerMonth = 60*60*1000;
+			expireDay.setTime( today.getTime() + msPerMonth );
+			document.cookie = "popped=yes;expires=" + expireDay.toGMTString();
+			/*
+			document.write("已经将 Cookie 写入你的硬盘中了!<br>");
+			document.write("内容是：", document.cookie, "<br>");
+			document.write("这个 Cookie 的有效时间是：");
+			document.write(expireDay.toGMTString());
+			document.write("<br>" + today.getTime()); */
+		} 
+}
+//loadpopup();
+</script> 
+<body onunload="loadpopup()">

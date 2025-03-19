@@ -1,0 +1,29 @@
+a:link    { text-decoration:none; color:#333333;}
+a:visited { text-decoration:none; color:#333333;}
+a:hover   { text-decoration:none; color:#0099FF;}
+a:active  { text-decoration:none; color:#FF9900;}
+A.a01:link {text-decoration:none; color:#000000;}
+A.a01:visited {text-decoration:none; color:#000000;}
+A.a01:hover {text-decoration:underline; color:#ff0099;}
+A.a01:active {text-decoration:none; color:#ff9900;}
+A.a03:link {text-decoration:none; color:#ffffff;}
+A.a03:visited {text-decoration:none; color:#ffffff;}
+A.a03:hover {text-decoration:none; color:#0099ff;}
+A.a03:active {text-decoration:none; color:#000000;}
+A.a04:link {text-decoration:none; color:#ff0000;}
+A.a04:visited {text-decoration:none; color:#ff0000;}
+A.a04:hover {text-decoration:none; color:#0099ff;}
+A.a04:active {text-decoration:none; color:#ff9900;}
+A.a06:link {text-decoration:underline; color:#333333;}
+A.a06:visited {text-decoration:underline; color:#333333;}
+A.a06:hover {text-decoration:none; color:#0099ff;}
+A.a06:active {text-decoration:none; color:#ff9900;}
+table, body {  font-family: "ËÎÌå"; font-size: 9pt;}
+BODY {FONT-SIZE: 9pt; FONT-FAMILY: ËÎÌå}
+BODY {SCROLLBAR-HIGHLIGHT-COLOR: #f2f2f2; COLOR: #333333; SCROLLBAR-3DLIGHT-COLOR: #f2f2f2; LINE-HEIGHT: 11pt; SCROLLBAR-ARROW-COLOR: #0085a8; SCROLLBAR-TRACK-COLOR: #f2f2f2; FONT-FAMILY: "Ó×Ô°"; SCROLLBAR-DARKSHADOW-COLOR: #f2f2f2; SCROLLBAR-BASE-COLOR: #d5edf9; TEXT-DECORATION: none}
+TD {	FONT-SIZE: 9pt; FONT-FAMILY: ËÎÌå}
+TH {	FONT-SIZE: 9pt; FONT-FAMILY: ËÎÌå}
+.style1 {	COLOR: #0075f7}
+.bluu {BORDER-RIGHT: #b4b4b4 1px dashed; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none}
+.aa {FONT-WEIGHT: bolder; FONT-SIZE: 12px; COLOR: #333333; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: "ËÎÌå"; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none}
+.px12 {  font-size: 12px; line-height: 200%; color: #000000}

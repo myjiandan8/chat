@@ -1,0 +1,23 @@
+A:visited{TEXT-DECORATION: none}
+A:active{TEXT-DECORATION: none}
+A:hover{TEXT-DECORATION: underline overline}
+A:link{text-decoration: none;}
+DIV{FONT-SIZE:9pt}
+FORM{FONT-SIZE:9pt}
+P{FONT-SIZE:9pt}
+TD{FONT-SIZE:9pt;}
+BODY{
+FONT-SIZE:9pt;
+cursor: url(mouse.cur);
+background-image: url('background.gif');
+SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+SCROLLBAR-FACE-COLOR: #FBF4F4; 
+SCROLLBAR-SHADOW-COLOR: #FBF4F4;
+SCROLLBAR-3DLIGHT-COLOR: #FBF4F4;
+SCROLLBAR-DARKSHADOW-COLOR: #F3E2E2;
+SCROLLBAR-ARROW-COLOR: #D66565
+}
+.a1{BACKGROUND-IMAGE:url('title.gif');color: ffffff;}
+.a2{BACKGROUND-COLOR: D68B8B;}
+.a3{BACKGROUND-COLOR: F3E2E2;}
+.a4{BACKGROUND-COLOR: F9EEEE;}

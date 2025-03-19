@@ -1,0 +1,113 @@
+*{
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif", "ËÎÌו";
+	font-size: 9pt;
+}
+body {
+	margin: 0px;
+
+	overflow: auto;
+	overflow-x:hidden;
+}
+.mainbor {
+	border-right: 1px solid #0099CC;
+	border-left: 1px solid #0099CC;
+
+}
+.inputs {
+	color: #000033;
+	background-color: #A9BBCB;
+	border: 1px solid #FFFFFF;
+	height: 15px;
+	width: 100px;
+
+}
+.mainborder {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+
+}
+.inputs2 {
+	background-color: #ECF2F4;
+	border: 1px solid #263E55;
+	height: 14px;
+	width: 100px;
+
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+}
+a.menu{
+	color: #003366;
+	text-decoration: none;
+}
+a.menu:hover{
+	color: #006666;
+}
+.inputs3 {
+	border: 1px solid #E4E6EB;
+	height: 13px;
+	width: 100px;
+	background-color: #91AEC4;
+
+}
+.inputt {
+	border: 0px solid;
+	background-color: #FFFFFF;
+	overflow: auto;
+
+}
+.pads {
+	padding: 6px;
+}
+.rights {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	color: #CCCCCC;
+}
+a.ubbhref {
+	color: #233258;
+	text-decoration: none;
+}
+a.ubbhref:hover{
+	color: #000000;
+}
+.shadow {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+}
+.rules {
+	background-color: #7BA2BD;
+	border: 0px solid;
+	height: 400px;
+	width: 500px;
+	overflow: auto;
+	color: #FFFFFF;
+
+
+}
+.bots {
+	height: 17px;
+	cursor: hand;
+	border: 1px solid #FFFFFF;
+	color: #333333;
+
+
+
+}
+.inputs4 {
+	background-color: #CCCCCC;
+	border: 1px solid #003366;
+}
+.fshadow {
+
+	filter: DropShadow(Color=#cccccc, OffX=1, OffY=1);
+	color: #000000;
+}

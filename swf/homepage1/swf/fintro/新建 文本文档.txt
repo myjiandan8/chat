@@ -1,0 +1,70 @@
+127.0.0.1关闭连接
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/crossdomain.xml
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+GET /crossdomain.xml HTTP/1.1
+Accept: */*
+x-flash-version: 7,0,19,0
+User-Agent: HYTServer V1.001 Proxy
+Host: www.cctv.com
+Connection: Keep-Alive
+
+
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/crossdomain.xml
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+GET /bottom.js HTTP/1.1
+Accept: */*
+Referer: http://www.cctv.com/default.shtml
+Accept-Language: zh-cn,zh-tw;q=0.5
+User-Agent: HYTServer V1.001 Proxy
+Host: www.cctv.com
+Connection: Keep-Alive
+
+
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/bottom.js//j._.s/http://www.cctv.com/
+127.0.0.1关闭连接
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/
+127.0.0.1Socket:2请求Web Server
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+GET /js/player.js HTTP/1.1
+Accept: */*
+Referer: http://www.cctv.com/default.shtml
+Accept-Language: zh-cn,zh-tw;q=0.5
+User-Agent: HYTServer V1.001 Proxy
+Host: www.cctv.com
+Connection: Keep-Alive
+
+
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/js/player.js//j._.s/http://www.cctv.com/
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/homepage/css/style_p.css
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/style/homepage/style.css
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+GET /default.shtml HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel, application/msword, application/x-shockwave-flash, */*
+Accept-Language: zh-cn,zh-tw;q=0.5
+User-Agent: HYTServer V1.001 Proxy
+Host: www.cctv.com
+Connection: Keep-Alive
+
+
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/default.shtml
+127.0.0.1Socket:1请求Web Server
+127.0.0.1关闭连接
+GET / HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel, application/msword, application/x-shockwave-flash, */*
+Accept-Language: zh-cn,zh-tw;q=0.5
+User-Agent: HYTServer V1.001 Proxy
+Host: www.cctv.com
+Connection: Keep-Alive
+
+
+127.0.0.1请求(GET)cctv.lwoo.net请求(GET)www.cctv.com/
+127.0.0.1Socket:1请求Web Server
+21:43:37开始运行80

